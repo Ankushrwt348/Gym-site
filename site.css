@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#navbar{
+   width: 100%;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 0 80px;
+   gap: 50px;
+   position: fixed;
+   z-index: 99;
+   background-color: #191717;
+  
+}
+.lg>h4{
+    margin-left: 410px;
+    color: white;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h4:hover{
+    color: #ff4747;
+    transform: scale(1.3);
+    border-bottom: 2px solid #ff4747;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+
+#navbar img{
+    width: 90px;
+}
+
+#navbar h4{
+    text-transform:uppercase;
+    transition: all 0.3s linear;
+   
+  
+}
+#im {
+   position: fixed;
+   object-fit: contain;
+   left:-500px;
+   z-index: -1;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+#page0{
+    background-color: rgba(106, 106, 106, 0.822);
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+#page0 img{
+   object-fit: contain;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+i{
+    color: #191717;
+    font-size: 50px;
+    background-color: white;
+
+}
+
+#page0 button{
+    border:none;
+    background-color: rgb(208, 208, 208);
+    color: #191717;
+    border-radius: 40%;
+    font-size: 40px;
+}
+#img{
+    display: flex;
+    overflow: hidden;
+    height: 90vh;
+    width: 70%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    top: 90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page1 h1{
+     text-transform: uppercase;
+     font-size: 80px;
+     font-weight: 900;
+     position: relative;
+    margin-top: 0px;
+}
+#page1 h1::after{
+    content:'Eat .Sleep. Gym .Repeat. ';
+    position: absolute;
+    color: rgb(247, 56, 56);
+    top: -5px;
+    left: -5px;
+
+    z-index: -1;
+}
+#page1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+#page1 p{
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+   margin: 10px;
+    font-weight: 300;
+}
+#page3{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 70px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left,grey,rgb(56, 55, 55)); 
+}
+#page3 img{
+    height: 200px;
+    width:200px;
+    border-radius: 30px;
+}
+#aboutus{
+    text-align: center;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}
+#aboutus h1{
+    font-weight: 800;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+#aboutus p{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height:25px;
+  font-size: 18px;
+}
+#page4{
+    height: 60vh;
+    background-color: rgba(55, 55, 55, 0.568);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20%;
+    height: 80%;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+#card1{
+    background-image: url(logan-weaver-lgnwvr-LzT-WMv1xrI-unsplash.jpg);
+}
+#card2{
+    background-image: url(mohamed-fareed-rbSNsoXk-3A-unsplash.jpg);
+}
+#card3{
+    background-image: url(samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+}
+.over{
+    background-color: rgb(201, 2, 2);
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top: 100px;
+    opacity: 0;
+    transition: all 0.7s linear;
+}
+.over h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.over p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.over:hover{
+    opacity: 1;
+}
+
+.page4{
+    height: 300px;
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7D7C7C;
+}
+.page4 h3{
+    font-size: 50px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+     background-color: #191717;
+    height: 25vh;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+a{
+    text-decoration: none;
+}

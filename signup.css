@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.full{
+    display: flex;
+    width: 100%;
+}
+#second{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+   background: url(joel-muniz-lUK16p_JtCM-unsplash.jpg);
+   background: cover;
+}
+#second h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    height: 100vh;
+    background-color: rgb(134, 134, 134);
+}
+#main h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    border-bottom: 5px solid;
+    padding: 3px;
+}
+#login{
+    align-items: center;
+    /* border: 1px solid; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    text-transform: capitalize;
+    background-color: white;
+    border-radius: 40px;
+   
+}
+#login h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:40px ;
+}
+#login h5{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+#login input{
+    border: none;
+   border-bottom: 1px solid ;
+   font-size: 20px; 
+}
+#login button{
+    border: none;
+     background-color: rgb(68, 67, 67);
+     color: white;
+     font-size: 20px;
+     border-radius: 10px;
+     width: 140px;
+     height: 40px;
+     cursor: pointer;
+}
+#login a{
+    margin-left: 100px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+}
+#social>button{
+  width: 200px;
+  font-size: 25 px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  
+}
+#social>#button1{
+    background-color:#1877f2;
+}
+#social>#button2{
+   background-color: #1DA1F2;
+}
+#social>#button3{
+    background-color:#BB001B ; 
+}
