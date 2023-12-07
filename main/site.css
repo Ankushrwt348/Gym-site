@@ -249,3 +249,14 @@ li{
 a{
     text-decoration: none;
 }
+.footer2{
+    background-color: #191717;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer2 i{
+     background-color: #191717;
+    font-size: 1em; 
+    margin: 5px;
+}
