@@ -188,13 +188,13 @@ i{
     z-index: 10;
 }
 #card1{
-    background-image: url(logan-weaver-lgnwvr-LzT-WMv1xrI-unsplash.jpg);
+    background-image: url(/main/logan-weaver-lgnwvr-LzT-WMv1xrI-unsplash.jpg);
 }
 #card2{
-    background-image: url(mohamed-fareed-rbSNsoXk-3A-unsplash.jpg);
+    background-image: url(/main/mohamed-fareed-rbSNsoXk-3A-unsplash.jpg);
 }
 #card3{
-    background-image: url(samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+    background-image: url(/main/samuel-girven-VJ2s0c20qCo-unsplash.jpg);
 }
 .over{
     background-color: rgb(201, 2, 2);
@@ -253,6 +253,7 @@ a{
     background-color: #191717;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
 .footer2 i{
