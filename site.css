@@ -254,10 +254,12 @@ a{
     text-align: center;
     padding: 20px;
     color: white;
+    display: flex;
 }
 
 .footer2 i{
      background-color: #191717;
     font-size: 1em; 
     margin: 5px;
+    color: white;
 }
