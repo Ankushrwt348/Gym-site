@@ -255,6 +255,7 @@ a{
     padding: 20px;
     color: white;
     display: flex;
+    justify-content: space-around;
 }
 
 .footer2 i{
